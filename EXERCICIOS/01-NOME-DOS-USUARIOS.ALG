@@ -1,0 +1,21 @@
+Algoritmo "semnome"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : PEDRO
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : RUBENS FILIPE
+// Data atual  : 24/03/2020
+Var
+// Seção de Declarações das variáveis 
+userone, usertwo:caracter
+
+
+Inicio
+
+Escreva("DIGITE O NOME DO USUARIO 1: ")
+leia(userone)
+Escreva("DIGITE O NOME DO USUARIO 1: ")
+leia(usertwo)
+Escreva("O PRIMEIRO USUARIO É : ", userone, " E O USUARIO DOIS É: ", usertwo)
+
+
+Fimalgoritmo

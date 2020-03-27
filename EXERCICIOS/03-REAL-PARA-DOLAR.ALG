@@ -1,0 +1,21 @@
+Algoritmo "REAL PARA DOLAR"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : PEDRO
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : RUBENS FILIPE
+// Data atual  : 26/03/2020
+Var
+DOLAR, REALBR, RESULTADO: REAL
+
+
+Inicio
+
+DOLAR <- 5.02
+
+ESCREVA("DIGITE UM VALOR EM R$: ")
+LEIA(REALBR)
+RESULTADO <- DOLAR * REALBR
+ESCREVAL("O VALOR COLOCADO FOI R$", REALBR, " O VALOR EM DOLAR É US$", RESULTADO)
+ESCREVAL("O VALOR DISPONIVEL EM DOLAR É US$:", RESULTADO)
+
+Fimalgoritmo

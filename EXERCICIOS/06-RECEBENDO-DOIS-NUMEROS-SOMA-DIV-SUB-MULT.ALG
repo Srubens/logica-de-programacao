@@ -1,0 +1,27 @@
+Algoritmo "semnome"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : PEDRO
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : RUBENS FILIPE
+// Data atual  : 26/03/2020
+Var
+NUMA, NUMB, RESULTADO: INTEIRO
+
+
+Inicio
+
+ESCREVA("DIGITE O PRIMEIRO NUMEERO: ")
+LEIA(NUMA)
+ESCREVA("DIGITE O SEGUNDO NUMERO: ")
+LEIA(NUMB)
+RESULTADO <- NUMA + NUMB
+ESCREVAL("A SOMA DOS DOIS VALORES É: ", RESULTADO)
+RESULTADO <- NUMA - NUMB
+ESCREVAL("A SUBTRAÇÃO DOS DOIS VALORES É: ", RESULTADO)
+RESULTADO <- NUMA * NUMB
+ESCREVAL("A MULTIPLICAÇÃO DOS DOIS VALORES É: ", RESULTADO)
+RESULTADO <- NUMA \ NUMB
+ESCREVAL("A DIVISÃO DOS DOIS VALORES É: ", RESULTADO)
+
+
+Fimalgoritmo

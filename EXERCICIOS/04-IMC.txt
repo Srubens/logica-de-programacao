@@ -1,0 +1,26 @@
+Algoritmo "semnome"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : PEDRO
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : RUBENS FILIPE
+// Data atual  : 24/03/2020
+Var
+PESO, ALTURA, IMC:REAL
+
+
+Inicio
+
+ESCREVA("DIGITE SUA ALTURA: ")
+LEIA(ALTURA)
+ESCREVA("DIGITE SEU PESO: ")
+LEIA(PESO)
+IMC <- PESO / (ALTURA * 2)
+ESCREVA("SEU IMC É: ", IMC)
+SE IMC <= 25 ENTAO
+   ESCREVA(" E VOCÊ ESTA ACIMA DO PESO")
+SENAO
+   ESCREVA(" E VOCÊ NÃO ESTA ACIMA DO PESO")
+FIMSE
+
+
+Fimalgoritmo
