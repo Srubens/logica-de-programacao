@@ -1,0 +1,42 @@
+Algoritmo "VALOR COM DESCONTO"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : PEDRO
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : RUBENS FILIPE
+// Data atual  : 14/04/2020
+Var
+CODIGO, DESCONTO, VALOR:REAL
+PRODUTO:CARACTER
+
+
+Inicio
+
+ESCREVA("INFORME O NOME DO PRODUTO: ")
+LEIA(PRODUTO)
+ESCREVA("INFOME O VALOR DO PRODUTO: ")
+LEIA(VALOR)
+ESCREVA(PRODUTO, " INFORME O CODIGO DE DESCONTO DO PRODUTO: ")
+LEIA(CODIGO)
+
+SE (CODIGO = 0)  ENTAO
+   DESCONTO <- VALOR * 0.25
+   ESCREVA("O VALOR DO DESCONTO VAI SER DE: ", DESCONTO)
+SENAO
+   SE (CODIGO = 1) ENTAO
+      DESCONTO <- VALOR * 0.20
+      ESCREVA("O VALOR DO DESCONTO VAI SER DE: R$", DESCONTO)
+   SENAO
+      SE (CODIGO = 2) ENTAO
+         DESCONTO <- VALOR * 0.10
+         ESCREVA("O VALOR DO DESCONTO VAI SER DE: R$", DESCONTO)
+      SENAO
+           SE (CODIGO = 3) ENTAO
+              DESCONTO <- VALOR * 0.05
+              ESCREVA("O VALOR DO DESCONTO VAI SER DE: R$", DESCONTO)
+           FIMSE
+      FIMSE
+   FIMSE
+FIMSE
+
+
+Fimalgoritmo

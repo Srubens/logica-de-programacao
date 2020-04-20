@@ -1,0 +1,22 @@
+Algoritmo "NUMERO ENTRE 100 E 200"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : PEDRO
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : RUBENS FILIPE
+// Data atual  : 19/04/2020
+Var
+
+num: inteiro
+
+inicio
+
+
+ESCREVA("Informe um numero: ")
+LEIA(num)
+SE (num >= 100) e (num <= 200) ENTAO
+   ESCREVA("O número está entre 100 e 200?")
+SENAO
+   ESCREVA("O numero não esta no intervalo de 100 a 200")
+FIMSE
+
+fimalgoritmo

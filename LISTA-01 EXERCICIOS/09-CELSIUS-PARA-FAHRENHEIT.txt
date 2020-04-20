@@ -1,7 +1,7 @@
-Algoritmo "semnome"
-// Disciplina   : [Linguagem e Lógica de Programação]
+Algoritmo "CELSIUS PARA FAHRENHEIT"
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o]
 // Professor   : PEDRO
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// DescriÃ§Ã£o   : Aqui vocÃª descreve o que o programa faz! (funÃ§Ã£o)
 // Autor(a)    : RUBENS FILIPE
 // Data atual  : 26/03/2020
 Var
@@ -10,7 +10,7 @@ VALORC, VALORF: REAL
 
 Inicio
 
-ESCREVA("DIGITE O VALOR EM GRAUS Cº: ")
+ESCREVA("DIGITE O VALOR EM GRAUS CÂº: ")
 LEIA(VALORC)
 VALORF <- (9 * VALORC + 160)/5
 ESCREVA("O VALOR EM FARIHEINT: ", VALORF)

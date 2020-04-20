@@ -28,8 +28,8 @@ SENAO
    FIMSE
 FIMSE
 
-XONE <- (+ - ( RaizQ(DELTA) ) ) / 2 * letraA
-XTWO <- (- - ( RaizQ(DELTA) ) ) / 2 * letraA
+XONE <- (-letraB + ( RaizQ(DELTA) ) ) / 2 * letraA
+XTWO <- (-letraB - ( RaizQ(DELTA) ) ) / 2 * letraA
 
 ESCREVAL("O VALOR DE X1 É: ", XONE)
 ESCREVAL("O VALOR DE X2 É: ", XTWO)
