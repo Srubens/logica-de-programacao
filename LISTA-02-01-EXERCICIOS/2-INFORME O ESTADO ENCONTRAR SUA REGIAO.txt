@@ -1,0 +1,74 @@
+Algoritmo "INFORME O ESTADO ENCONTRAR SUA REGIAO"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : PEDRO
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : RUBENS FILIPE
+// Data atual  : 21/04/2020
+Var
+ESTADO:CARACTER
+
+
+Inicio
+
+ESCREVA("INFORME O ESTADO: ")
+LEIA(ESTADO)
+
+ESCOLHA ESTADO
+      CASO "PERNAMBUCO"
+           ESCREVA("REGIÃO NORDESTE")
+      CASO "PARAIBA"
+           ESCREVA("REGIÃO NORDESTE")
+      CASO "RIO GRANDE DO NORTE"
+           ESCREVA("REGIÃO NORDESTE")
+      CASO "CEARA"
+           ESCREVA("REGIÃO NORDESTE")
+      CASO "SERGIPE"
+           ESCREVA("REGIÃO NORDESTE")
+      CASO "ALAGOAS"
+           ESCREVA("REGIÃO NORDESTE")
+      CASO "PIAUI"
+           ESCREVA("REGIÃO NORDESTE")
+      CASO "MARANHAO"
+           ESCREVA("REGIÃO NORDESTE")
+      CASO "MINAS GERAIS"
+           ESCREVA("REGIÃO SUDESTE")
+      CASO "SÃO PAULO"
+           ESCREVA("REGIÃO SUDESTE")
+      CASO "RIO DE JANEIRO"
+           ESCREVA("REGIÃO SUDESTE")
+      CASO "ESPIRITO SANTO"
+           ESCREVA("REGIÃO SUDESTE")
+      CASO "PARANA"
+           ESCREVA("REGIÃO SUL")
+      CASO "SANTA CATARINA"
+           ESCREVA("REGIÃO SUL")
+      CASO "RIO GRANDE DO REGIÃO SUL"
+           ESCREVA("REGIÃO SUL")
+      CASO "RONDONIA"
+           ESCREVA("REGIÃO NORTE")
+      CASO "ACRE"
+           ESCREVA("REGIÃO NORTE")
+      CASO "TOCANTINS"
+           ESCREVA("REGIÃO NORTE")
+      CASO "PARA"
+           ESCREVA("REGIÃO NORTE")
+      CASO "AMAPA"
+           ESCREVA("REGIÃO NORTE")
+      CASO "RORAIMA"
+           ESCREVA("REGIÃO NORTE")
+      CASO "AMAZONAS"
+           ESCREVA("REGIÃO NORTE")
+      CASO "MATO GROSSO"
+           ESCREVA("REGIÃO CENTRO-OESTE")
+      CASO "MATO GROSSO DO SUL"
+           ESCREVA("REGIÃO CENTRO-OESTE")
+      CASO "BRASILIA"
+           ESCREVA("DISTRITO FEDERAL")
+      CASO "CAPITAL"
+           ESCREVA("DISTRITO FEDERAL")
+      CASO "ERRO"
+           ESCREVA("ERRO NENHUM ESTADO CORRESPONDE A ISTO INFORME NOVAMENTE")
+FIMESCOLHA
+
+
+Fimalgoritmo
