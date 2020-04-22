@@ -23,10 +23,12 @@ LEIA(C)
 SE (A = B) E (B = C) E (C = A) ENTAO
    ESCREVA("É O TRIANGULO EQUILATERO SEUS LADOS ", A, B, C)
 SENAO
-   SE (A <> B) E (B = C) ENTAO
+   SE ((A <> B) E (B = C) E (C <> A)) OU ( (A <> B) E (B <> C) E (C = A) ) OU ( (A = B) E (B <> C) E (C <> A) )   ENTAO
       ESCREVA("É O TRIANGULO ISOSCELES SEUS LADOS ", A, B, C)
    SENAO
-      ESCREVA("É O TRIANGULO ESCALENO SEUS LADOS ", A, B, C)
+      SE (A <> B) E (B <> C) E (C <> A) ENTAO
+         ESCREVA("É O TRIANGULO ESCALENO SEUS LADOS ", A, B, C)
+      FIMSE
    FIMSE
 FIMSE
 
